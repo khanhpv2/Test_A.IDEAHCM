@@ -1,0 +1,83 @@
+:root {
+  --form-bg-color: rgb(255, 214, 137);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  margin: 20px auto;
+}
+
+.form {
+  background-color: var(--form-bg-color);
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.form button {
+  background-color: orange;
+  border: none;
+  padding: 7px 20px;
+}
+
+.form button:hover {
+  background-color: orange;
+}
+
+.data-stack {
+  border: 1px solid red;
+}
+
+.data-card {
+  align-items: flex-start !important;
+  padding: 10px;
+}
+
+.data-card--info {
+  color: grey;
+}
+
+.data-card--info .area {
+  color: black;
+  font-weight: bold;
+}
+
+.data-card--info .location {
+  color: rgb(55, 118, 255);
+  font-weight: bold;
+}
+
+.data-card--info h2 {
+  font-size: 20px;
+  color: red;
+}
+
+.data-card--info h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+.divider {
+  height: 1px;
+  background-color: red;
+}
